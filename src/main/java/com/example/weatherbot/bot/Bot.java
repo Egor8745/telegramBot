@@ -26,6 +26,7 @@ public final class Bot extends TelegramLongPollingCommandBot {
     private void init() {
         register(new StartCommand("start", "start"));
     }
+    /*private void button() {register(new WetherCommand("checkWeather", "checkWeather"));}не понимаю как кнопку сделать новую*/
 
     @Override
     public String getBotUsername() {
